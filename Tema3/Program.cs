@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Tema3.OpenClose_After;
+using Tema3.OpenClose_Before;
 
 namespace Tema3
 {
@@ -118,47 +120,67 @@ namespace Tema3
 
         static void Main(string[] args)
         {
-            List<Interns> internList = new List<Interns>();
-            Menu();
-            string input = Console.ReadLine();
-            //used to check if Menu inputs are valid
-            String[] validOptions = { "1", "2", "3", "4", "X" };
-
-            while(input != "X")
+            List<object> shapes1 = new List<object>()
             {
-                if (input == "1")
-                {
-                    AddNewIntern(internList);
-                    input = Console.ReadLine();
-                }
+                new Rectangle1(){Height = 10, Width = 5},
+                new Rectangle1(){Height = 10, Width = 15},
+                new Circle1(){Radius = 5.6418958354776}
+            };
+            var result1 = AreaCalculator1.Area(shapes1.ToArray());
 
-                if (input == "2")
-                {
-                    UpdateItem(internList);
-                    input = Console.ReadLine();
+            Console.WriteLine(result1);
 
-                }
+            List<Shape> shapes2 = new List<Shape>()
+            {
+                new Rectangle2(){Height = 10, Width = 5},
+                new Rectangle2(){Height = 10, Width = 15},
+                new Circle2(){Radius = 5.6418958354776}
+            };
+            var result2 = AreaCalculator2.Area(shapes2.ToArray());
 
-                if (input == "3")
-                {
-                    DeleteItem(internList);
-                    input = Console.ReadLine();
-                }
+            Console.WriteLine(result2);
 
-                if (input == "4")
-                {
-                    PrintList(internList);
-                    Menu();
-                    input = Console.ReadLine();
-                }
+            //List<Interns> internList = new List<Interns>();
+            //Menu();
+            //string input = Console.ReadLine();
+            ////used to check if Menu inputs are valid
+            //String[] validOptions = { "1", "2", "3", "4", "X" };
 
-                if (validOptions.Contains(input) == false)
-                {
-                    Console.WriteLine("Wrong Option, Try again");
-                    Menu();
-                    input = Console.ReadLine();
-                }
-            }
+            //while(input != "X")
+            //{
+            //    if (input == "1")
+            //    {
+            //        AddNewIntern(internList);
+            //        input = Console.ReadLine();
+            //    }
+
+            //    if (input == "2")
+            //    {
+            //        UpdateItem(internList);
+            //        input = Console.ReadLine();
+
+            //    }
+
+            //    if (input == "3")
+            //    {
+            //        DeleteItem(internList);
+            //        input = Console.ReadLine();
+            //    }
+
+            //    if (input == "4")
+            //    {
+            //        PrintList(internList);
+            //        Menu();
+            //        input = Console.ReadLine();
+            //    }
+
+            //    if (validOptions.Contains(input) == false)
+            //    {
+            //        Console.WriteLine("Wrong Option, Try again");
+            //        Menu();
+            //        input = Console.ReadLine();
+            //    }
+            //}
         }
     }
 }

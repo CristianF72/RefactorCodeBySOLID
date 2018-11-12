@@ -43,11 +43,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Interns.cs" />
+    <Compile Include="OpenClose_After\AreaCalculator2.cs" />
+    <Compile Include="OpenClose_After\Circle2.cs" />
+    <Compile Include="OpenClose_After\Rectangle2.cs" />
+    <Compile Include="OpenClose_After\Shape.cs" />
+    <Compile Include="OpenClose_Before\AreaCalculator1.cs" />
+    <Compile Include="OpenClose_Before\Circle1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="OpenClose_Before\Rectangle1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

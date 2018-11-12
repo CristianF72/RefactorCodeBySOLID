@@ -12,3 +12,10 @@ C:\Users\axinte.vasilica\Desktop\Sample\Training2\Tema3\obj\Debug\Tema3.csprojAs
 C:\Users\axinte.vasilica\Desktop\Sample\Training2\Tema3\obj\Debug\Tema3.csproj.CoreCompileInputs.cache
 C:\Users\axinte.vasilica\Desktop\Sample\Training2\Tema3\obj\Debug\Tema3.exe
 C:\Users\axinte.vasilica\Desktop\Sample\Training2\Tema3\obj\Debug\Tema3.pdb
+D:\Projects\RefactorCodeBySOLID\Tema3\bin\Debug\Tema3.exe.config
+D:\Projects\RefactorCodeBySOLID\Tema3\bin\Debug\Tema3.exe
+D:\Projects\RefactorCodeBySOLID\Tema3\bin\Debug\Tema3.pdb
+D:\Projects\RefactorCodeBySOLID\Tema3\obj\Debug\Tema3.csprojAssemblyReference.cache
+D:\Projects\RefactorCodeBySOLID\Tema3\obj\Debug\Tema3.csproj.CoreCompileInputs.cache
+D:\Projects\RefactorCodeBySOLID\Tema3\obj\Debug\Tema3.exe
+D:\Projects\RefactorCodeBySOLID\Tema3\obj\Debug\Tema3.pdb
